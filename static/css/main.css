@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    width: 100%;   
+}
+
+.background-image {
+    background-image: url("../images/rocks.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    filter: blur(1.5px);
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.container {
+    font-family: 'Reenie Beanie', cursive;
+    float: left;
+    position: fixed;
+    text-align: center;
+    width: 50%;
+    z-index: 9999;
+}
+
+.logo-img {
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.quote {
+    color: white;
+    font-size: 250%;
+    margin-left: 8%;
+    text-align: center;  
+    width: 70%;
+}
+
+.navbar {
+    color: white;
+    float: right;
+    font-family: 'Reenie Beanie', cursive;
+    top: 30px;
+    position: relative;
+    width: 46%;
+    z-index: 9999;
+}
+.anchor {
+    color: white;
+    cursor: pointer;
+    font-size: 200%;
+    margin: 30px;
+    text-decoration: none;
+}
+
+.anchor:hover {
+    color: black;
+}
+
+
+/* .nav-choice {
+    padding: 5%;
+} */
