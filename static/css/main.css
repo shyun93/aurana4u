@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
     float: left;
     position: fixed;
     text-align: center;
@@ -33,7 +33,7 @@ body {
 
 .quote {
     color: white;
-    font-size: 250%;
+    font-size: 260%;
     margin-left: 8%;
     text-align: center;  
     width: 70%;
@@ -42,12 +42,36 @@ body {
 .navbar {
     color: white;
     float: right;
-    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
     top: 30px;
-    position: relative;
+    position: sticky;
     width: 46%;
     z-index: 9999;
 }
+
+.empty {
+    position: fixed;
+    z-index: 1;
+}
+
+.about-div, .session-div, .highlight-div, .contact-div {
+    color: white;
+    float: right;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 155%;
+    left: 44%;
+    top: 12%;
+    position: relative;
+    width: 40%;
+    z-index: 9999;
+}
+
+.book, .about, .highlight, .contact {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
 .anchor {
     color: white;
     cursor: pointer;
@@ -57,7 +81,7 @@ body {
 }
 
 .anchor:hover {
-    color: black;
+    color: #e6ccff;
 }
 
 
